@@ -22,7 +22,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "react-scripts build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "react-scripts start",
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   }
 }
