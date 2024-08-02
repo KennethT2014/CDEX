@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react-scripts": "^5.0.1"
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "next": "^13.5.6",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
@@ -17,7 +23,6 @@
     "dev": "next dev",
     "build": "next build && next export -o build/",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "vercel --prod"
+    "lint": "next lint"
   }
 }
